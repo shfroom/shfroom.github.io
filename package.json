@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@huggingface/inference": "^3.5.2",
+    "cursor-effects": "file:cursor-effects-1.0.17.tgz"
+  }
+}

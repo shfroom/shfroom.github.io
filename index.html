@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="cube.css">
+  <script src="script.js"></script>
+  <script src="ztext.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <script type="module">
+    import { followingDotCursor } from "./node_modules/cursor-effects/dist/esm.js";
+    new followingDotCursor();
+  </script>
+  <div style="height: 100px" class="hero-text">
+    <p style="margin-left: 20px; margin-top: 35px;">insert meaningful content here</p><p style="margin-right: 15px; text-align: right;">i use arch, btw</p>
+  </div>
+  <div style="height: 61vw; aspect-ratio: 1 / 1.20; margin-top: 110px; background-color: white; border-radius: 15px; text-align: center;" class="content">
+    <div class="cube-container">
+      <div class="cube">
+      <div class="face front" onclick="window.location.href='https://github.com/shoe-77';"></div>
+      <div class="face back" onclick="window.location.href='https://github.com/shoe-77';"></div>
+      <div class="face right" onclick="window.location.href='https://github.com/shoe-77';"></div>
+      <div class="face left" onclick="window.location.href='https://github.com/shoe-77';"></div>
+      <div class="face top" onclick="window.location.href='https://github.com/shoe-77';"></div>
+      <div class="face bottom" onclick="window.location.href='https://github.com/shoe-77';"></div>
+    </div>
+    <div class="border">
+      <div class="frame">
+      <canvas id="myCanvas"></canvas>
+      </div>
+    </div>
+    <i><p style="margin-top: 55px;">Following Dot Cursor provided by <a href="https://github.com/tholman/cursor-effects">cursor-effects</a> </p></i>
+    <p class="p-text">Welcome to my github page!</p>
+  </div>
+  <marquee class="marquee-container" onmouseenter="this.stop()" onmouseleave="this.start()">The marquee element is an HTML tag that was historically used to create scrolling text or images on a webpage, providing a dynamic and eye-catching effect that could move content horizontally or vertically across the screen. Introduced in early iterations of web design, the marquee element was widely adopted for its simplicity and ability to add a sense of motion to otherwise static pages without requiring advanced scripting or coding knowledge. However, its use has always been considered somewhat controversial among developers due to its lack of versatility, poor accessibility, and non-conformance with web standards. The functionality of the marquee element is relatively straightforward: content placed within the opening and closing marquee tags would automatically scroll in the default left-to-right direction unless otherwise specified. Developers could customize the behavior and appearance of the scrolling content through attributes, such as direction, behavior, scrollamount, and scrolldelay. For example, the direction attribute allowed the text or image to scroll in specified directions like up, down, left, or right. The behavior attribute defined the scrolling pattern, which could be scroll, slide, or alternate, depending on the desired effect. The scrollamount and scrolldelay attributes enabled control over the speed and smoothness of the scrolling, ensuring that developers could create a more controlled visual effect. Despite its utility, the marquee element has been widely criticized for its lack of accessibility and poor user experience. Scrolling text can be difficult to read, especially for users with visual impairments or cognitive disabilities, as it requires constant eye tracking and may move too quickly or inconsistently across the screen. Additionally, the marquee element's behavior is not conducive to responsive web design principles, as it often fails to adapt properly to different screen sizes and resolutions. As a result, it can create usability issues and detract from the overall accessibility of a website. Furthermore, the marquee element is not a part of the official HTML specification, which has led to compatibility issues across browsers and devices. While it was initially supported by Internet Explorer and later by other browsers like Netscape, its behavior was inconsistent, and developers often struggled to achieve uniform scrolling effects across different platforms. With the rise of web standards and the deprecation of non-standard elements, the marquee element was officially declared obsolete in HTML5. Developers are now encouraged to use modern alternatives that adhere to best practices and provide a better user experience. CSS animations and JavaScript libraries are the preferred methods for creating scrolling or dynamic content, as they offer greater flexibility, customization, and accessibility compared to the marquee element. By leveraging CSS properties like @keyframes and animations, developers can achieve smooth and visually appealing scrolling effects without sacrificing responsiveness or compatibility. JavaScript libraries such as jQuery or GSAP further enhance the possibilities for dynamic content, allowing for intricate animations and interactions that align with modern web design trends. The marquee element, while a relic of early web development, serves as a reminder of the evolution of web design practices and the importance of prioritizing accessibility, usability, and adherence to web standards in creating engaging online experiences. Although it is no longer recommended for use, its legacy persists in the nostalgic charm of early websites and the lessons it imparts to contemporary developers in striving for innovation without compromising user experience.</marquee>
+</body>
+</html>
